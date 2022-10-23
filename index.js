@@ -8,7 +8,7 @@ function playGame() {
         let question = questions[i]
         let userAnswer = window.prompt(question.text)
         if(userAnswer === question.correctAnswer) {
-        userScore = useScore + 10
+            userScore = userScore + 10
         }
     }
 
@@ -20,9 +20,9 @@ while (playAgain === true) {
     playGame()
     let userChoice = window.prompt('Would you like to play again? Answer yes or no. ')
     if (userChoice = 'yes') {
-        playagain = true
+        playAgain = true
     }else{
-        playagain = false
+        playAgain = false
         window.alert('Thanks for playing the game!')
     }
 }    
