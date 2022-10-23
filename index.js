@@ -19,9 +19,9 @@ function playGame() {
 while (playAgain === true) {
     playGame()
     let userChoice = window.prompt('Would you like to play again? Answer yes or no. ')
-    if (userChoice = 'yes') {
+    if(userChoice === 'yes') {
         playAgain = true
-    }else{
+    } else {
         playAgain = false
         window.alert('Thanks for playing the game!')
     }
